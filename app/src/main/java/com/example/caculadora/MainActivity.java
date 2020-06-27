@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView text_respuesta;
     private EditText edit_num1;
     private EditText edit_num2;
-    
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
