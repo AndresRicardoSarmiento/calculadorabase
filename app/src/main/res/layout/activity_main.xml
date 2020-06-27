@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Respuesta"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="0"
+        android:textColor="#882020"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:ems="10"
+        android:hint="Escribir el primer numero"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:ems="10"
+        android:hint="Escribir el segundo numero"
+        android:inputType="number" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TableRow
+            android:layout_width="222dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button_suma"
+                android:layout_width="145dp"
+                android:layout_height="match_parent"
+                android:text="+"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/button_resta"
+                android:layout_width="136dp"
+                android:layout_height="106dp"
+                android:text="-"
+                android:textSize="36sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button_division"
+                android:layout_width="152dp"
+                android:layout_height="118dp"
+                android:text="/"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/button_multiplicacion"
+                android:layout_width="123dp"
+                android:layout_height="match_parent"
+                android:text="X"
+                android:textSize="36sp" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
